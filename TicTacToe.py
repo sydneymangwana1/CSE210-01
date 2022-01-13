@@ -30,6 +30,8 @@ def printtheboard(theboard):
     print(theboard[7] + '|' + theboard[8] + '|' + theboard[9])
     print()
 
+# current player chooses a position on the grid
+
 
 def player_Input(player, fromdictionary):
     position = int(input(f"Player {player}'s turn to play (1-9) : "))
@@ -38,6 +40,7 @@ def player_Input(player, fromdictionary):
     return updateddictionary
 
 
+# determine who is playing next
 def next_player(currentplayer):
     if currentplayer == "" or currentplayer == "O":
         return "X"
