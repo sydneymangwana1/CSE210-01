@@ -50,8 +50,8 @@ def next_player(currentplayer):
 
 # check if the board is filled or not
 def gameover(fromdictionary):
-    for i in range(1, 10):
-        if fromdictionary[i] != 'X' and fromdictionary[i] != 'O':
+    for c in range(1, 10):
+        if fromdictionary[c] != 'X' and fromdictionary[c] != 'O':
             return False
     return True
 
