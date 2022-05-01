@@ -1,6 +1,6 @@
 # assignment : TicTacToe.py
 # aurthor: sydney mangwana
-# date : 12 Jan 2022
+# date : 28 April 2022
 
 def main():
     board = {1: '1', 2: '2', 3: '3',
